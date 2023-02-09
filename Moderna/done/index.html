@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Services - Moderna Bootstrap Template</title>
+    <title>Print House</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -43,16 +43,16 @@
     <link href="assets/css/style.css" rel="stylesheet" />
 
     <!-- =======================================================
-  * Template Name: Moderna - v4.11.0
-  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
+  
   ======================================================== -->
   </head>
 
   <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center">
+    <header
+      id="header"
+      class="fixed-top d-flex align-items-center header-transparent"
+    >
       <div class="container d-flex justify-content-between align-items-center">
         <div class="logo">
           <h1 class="text-light">
@@ -66,10 +66,9 @@
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="" href="index.html">Home</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a class="active" href="Categories.html">Categories</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="Categories.html">Categories</a></li>
             <li><a href="team.html">Team</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li class="dropdown">
@@ -105,23 +104,98 @@
     </header>
     <!-- End Header -->
 
-    <main id="main">
-      <!-- ======= Our Services Section ======= -->
-      <section class="breadcrumbs">
-        <div class="container">
-          <div class="d-flex justify-content-between align-items-center">
-            <h2>Our Services</h2>
-            <ol>
-              <li><a href="index.html">Home</a></li>
-              <li>Categories</li>
-            </ol>
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex justify-cntent-center align-items-center">
+      <div
+        id="heroCarousel"
+        class="container carousel carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-interval="5000"
+      >
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">
+              Welcome to <span style="color: #fbae30">Print</span
+              ><span style="color: #35b3f1"> House</span>
+            </h2>
+            <p class="animate__animated animate__fadeInUp">
+              Revolutionize Your Printing Experience with Our High-Quality 3D
+              Printers
+            </p>
+            <a
+              href="Categories.html"
+              class="btn-get-started animate__animated animate__fadeInUp"
+              >Shop Now</a
+            >
           </div>
         </div>
-      </section>
-      <!-- End Our Services Section -->
 
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">
+              High precision
+            </h2>
+            <p class="animate__animated animate__fadeInUp">
+              Print Precise and Detailed Objects with Our State-of-the-Art 3D
+              Printers
+            </p>
+            <a
+              href="Categories.html"
+              class="btn-get-started animate__animated animate__fadeInUp"
+              >Shop Now</a
+            >
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">Versatility</h2>
+            <p class="animate__animated animate__fadeInUp">
+              <!-- Experience the Power of 3D Printing and Turn Your Ideas into
+              Reality -->
+              Your One-Stop-Shop For All Your 3D Printing Needs
+            </p>
+            <a
+              href="Categories.html"
+              class="btn-get-started animate__animated animate__fadeInUp"
+              >Shop Now</a
+            >
+          </div>
+        </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bx bx-chevron-left"
+            aria-hidden="true"
+          ></span>
+        </a>
+
+        <a
+          class="carousel-control-next"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bx bx-chevron-right"
+            aria-hidden="true"
+          ></span>
+        </a>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
       <!-- ======= Services Section ======= -->
-      <!-- <section class="services">
+      <section class="services">
         <div class="container">
           <div class="row">
             <div
@@ -186,11 +260,11 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- End Services Section -->
 
       <!-- ======= Why Us Section ======= -->
-      <!-- <section
+      <section
         class="why-us section-bg"
         data-aos="fade-up"
         date-aos-delay="200"
@@ -198,214 +272,178 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6 video-box">
-              <img src="assets/img/why-us.jpg" class="img-fluid" alt="" />
+              <img
+                src="assets/img/3dprintingasharkyusstock.png"
+                class="img-fluid"
+                alt=""
+              />
               <a
-                href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
+                href="https://www.youtube.com/watch?v=aVmJShnA8jE"
                 class="venobox play-btn mb-4"
                 data-vbtype="video"
                 data-autoplay="true"
+                target="_blank"
               ></a>
             </div>
 
             <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                <div class="icon"><i class="fa-solid fa-video"></i></div>
+                <h4 class="title">
+                  <a href=""
+                    >Discover the Power of 3D Printing: Watch Our Demo Video</a
+                  >
+                </h4>
                 <p class="description">
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi sint occaecati cupiditate non provident
+                  From complex designs to simple objects, our demo videos
+                  provide a glimpse into the endless possibilities of 3D
+                  printing
                 </p>
               </div>
 
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-gift"></i></div>
-                <h4 class="title"><a href="">Nemo Enim</a></h4>
+                <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                <h4 class="title">
+                  <a href="">Experience the Capabilities of Our 3D Printers</a>
+                </h4>
                 <p class="description">
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque
+                  Get a firsthand look at the power and versatility of our 3D
+                  printers
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- End Why Us Section -->
-
-      <!-- ======= Service Details Section ======= -->
-      <section class="service-details">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-              <div class="card">
-                <div class="card-img">
-                  <a href="PrintersCategories.html">
-                    <img src="assets/img/3d.jpg" alt="..."
-                  /></a>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">
-                    <a href="PrintersCategories.html">3D Printers</a>
-                  </h5>
-                  <p class="card-text">
-                    Our 3D printers category offers a wide range of cutting-edge
-                    technologies and high-quality machines to help you bring
-                    your creative vision to life.
-                  </p>
-                  <div class="read-more">
-                    <a href="PrintersCategories.html"
-                      ><i class="bi bi-arrow-right"></i> Shop</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-              <div class="card">
-                <div class="card-img">
-                  <a href="printers.html">
-                    <img src="assets/img/Home-bg.jpeg" alt="..." />
-                  </a>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title"><a href="#">Consumables</a></h5>
-                  <p class="card-text">
-                    Our consumables category offers a wide range of premium
-                    quality 3D printing filaments to choose from. Whether you're
-                    looking for ABS, PLA, PETG, Nylon, TPU, or any other
-                    filament material, we have you covered.
-                  </p>
-                  <div class="read-more">
-                    <a href="#"><i class="bi bi-arrow-right"></i> Shop</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-              <div class="card">
-                <div class="card-img">
-                  <a href="printers.html">
-                    <img src="assets/img/parts.png" alt="..." />
-                  </a>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title"><a href="#">Parts</a></h5>
-                  <p class="card-text">
-                    The Parts category on Print House offers a wide range of
-                    high-quality, reliable 3D printer parts to keep your machine
-                    running smoothly.
-                  </p>
-                  <div class="read-more">
-                    <a href="#"><i class="bi bi-arrow-right"></i> Shop</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-              <div class="card">
-                <div class="card-img">
-                  <img
-                    src="assets/img/service-details-4.jpg"
-                    alt="..."
-                    style="height: 356px"
-                  />
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title"><a href="#">Our Care</a></h5>
-                  <p class="card-text">
-                    Our team of knowledgeable and experienced technicians is
-                    available to answer any questions and resolve any issues
-                    that may arise with your 3D printer. With our commitment to
-                    excellent customer service and technical expertise, our
-                    technical support section is the ultimate resource for all
-                    your 3D printing needs.
-                  </p>
-                  <div class="read-more">
-                    <a href="#"><i class="bi bi-arrow-right"></i> Read More</a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Service Details Section -->
+      <!-- End Why Us Section -->
 
-      <!-- ======= Pricing Section ======= -->
-      <!-- <section class="pricing section-bg" data-aos="fade-up">
+      <!-- ======= Features Section ======= -->
+      <section class="features">
         <div class="container">
           <div class="section-title">
-            <h2>Pricing</h2>
+            <h2>Featured Printers</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              Explore Our Wide Range of High-Quality 3D Printers - Designed for
+              Professional and Industrial Use.
             </p>
           </div>
 
-          <div class="row no-gutters">
-            <div class="col-lg-4 box">
-              <h3>Free</h3>
-              <h4>$0<span>per month</span></h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li>
-                  <i class="bx bx-check"></i> Nulla at volutpat diam uteera
-                </li>
-                <li class="na">
-                  <i class="bx bx-x"></i>
-                  <span>Pharetra massa massa ultricies</span>
-                </li>
-                <li class="na">
-                  <i class="bx bx-x"></i>
-                  <span>Massa ultricies mi quis hendrerit</span>
-                </li>
-              </ul>
-              <a href="#" class="get-started-btn">Get Started</a>
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-5">
+              <img
+                src="assets/img/makerbotreplicatormini.jpg"
+                class="img-fluid"
+                alt=""
+              />
             </div>
-
-            <div class="col-lg-4 box featured">
-              <h3>Business</h3>
-              <h4>$29<span>per month</span></h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li>
-                  <i class="bx bx-check"></i> Nulla at volutpat diam uteera
-                </li>
-                <li>
-                  <i class="bx bx-check"></i> Pharetra massa massa ultricies
-                </li>
-                <li>
-                  <i class="bx bx-check"></i> Massa ultricies mi quis hendrerit
-                </li>
-              </ul>
-              <a href="#" class="get-started-btn">Get Started</a>
+            <div class="col-md-7 pt-4">
+              <h3>The MakerBot Replicator Mini</h3>
+              <p class="fst-italic">
+                The MakerBot Replicator Mini is a compact and easy-to-use 3D
+                printer, perfect for home and office use. It offers a smaller
+                build volume than other models, but its streamlined design and
+                simple operation make it ideal for small projects and models.
+                The Replicator Mini is capable of producing high-quality prints
+                with MakerBot's proprietary PLA filament, resulting in stunning
+                and detailed models. <br />
+                The included MakerBot Desktop software makes it easy to prepare,
+                upload, and start printing your models. With its compact design,
+                easy operation, and impressive print quality, the MakerBot
+                Replicator Mini is a great choice for those looking for a
+                reliable and affordable 3D printer for their home or office.
+              </p>
             </div>
+          </div>
 
-            <div class="col-lg-4 box">
-              <h3>Developer</h3>
-              <h4>$49<span>per month</span></h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li>
-                  <i class="bx bx-check"></i> Nulla at volutpat diam uteera
-                </li>
-                <li>
-                  <i class="bx bx-check"></i> Pharetra massa massa ultricies
-                </li>
-                <li>
-                  <i class="bx bx-check"></i> Massa ultricies mi quis hendrerit
-                </li>
-              </ul>
-              <a href="#" class="get-started-btn">Get Started</a>
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-5 order-1 order-md-2">
+              <img src="assets/img/zortraxM200.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7 pt-5 order-2 order-md-1">
+              <h3>Zortrax M200</h3>
+              <p class="fst-italic">
+                The Zortrax M200 is a top-of-the-line 3D printer designed for
+                professional use. It offers a large build volume, precision
+                printing capabilities, and a range of advanced features to help
+                you create complex models with ease. The M200 uses Zortrax's
+                proprietary Z-ULTRAT material to produce high-quality prints
+                with stunning detail and accuracy. Its sturdy and reliable
+                design ensures that your projects are completed with consistency
+                and precision, every time.
+              </p>
+              <p>
+                The intuitive and user-friendly software makes it easy to set up
+                and start printing, even for beginners. Whether you're a
+                professional designer, an engineer, or an artist, the Zortrax
+                M200 is an excellent choice for bringing your 3D printing
+                visions to life
+              </p>
+            </div>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-5">
+              <img
+                src="assets/img/Flashforge-Creator-3-Pro-IDEX-3D-Printer-3-Quarter-View.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="col-md-7 pt-5">
+              <h3>FlashForge Creator 3 PRO IDEX</h3>
+              <p>
+                The FlashForge Creator 3 PRO IDEX is a professional-grade 3D
+                printer designed for advanced users. It features independent
+                dual extruder (IDEX) technology, which allows for dual color or
+                material printing in one pass. The Creator 3 PRO IDEX offers a
+                large build volume, precise and consistent printing, and a range
+                of advanced features to help you bring your ideas to life.
+                <br />
+                It supports a wide range of materials, including PLA, ABS, PETG,
+                and more, and is compatible with a variety of third-party
+                filaments. The intuitive and user-friendly software makes it
+                easy to set up, prepare, and start printing your models. Whether
+                you're an engineer, designer, artist, or enthusiast, the
+                FlashForge Creator 3 PRO IDEX is a powerful and versatile tool
+                for creating high-quality 3D prints.
+              </p>
+            </div>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-5 order-1 order-md-2">
+              <img
+                src="assets/img/ultimaker-3d-printing-filament-printer-png-favpng-znAgKHgpYXPLqNE7cR4J35GJS.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="col-md-7 pt-5 order-2 order-md-1">
+              <h3>Ultimaker 3D Printer</h3>
+              <p class="fst-italic">
+                The Ultimaker is a high-performance 3D printer designed for
+                professional and industrial use. It offers a large build volume,
+                precise and consistent printing, and a range of advanced
+                features to help you create complex models with ease. The
+                Ultimaker supports a wide range of materials, including PLA,
+                ABS, Nylon, and more, and is compatible with a variety of
+                third-party filaments.
+              </p>
+              <p>
+                The advanced and easy-to-use software makes it simple to prepare
+                and start printing your models, and the printer's open
+                architecture allows for custom modifications and upgrades. The
+                Ultimaker's sturdy and reliable design ensures that your
+                projects are completed with precision and consistency, every
+                time. Whether you're a professional designer, engineer, or
+                artist, the Ultimaker is an excellent choice for bringing your
+                3D printing visions to life.
+              </p>
             </div>
           </div>
         </div>
-      </section> -->
-      <!-- End Pricing Section -->
+      </section>
+      <!-- End Features Section -->
     </main>
     <!-- End #main -->
 
@@ -466,7 +504,7 @@
               <ul>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="PrintersCategories.html">3D Printers</a>
+                  <a href="#">3D Printers</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
@@ -553,9 +591,8 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-    <!-- Template Main JS File -->
+    <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
   </body>
 </html>
